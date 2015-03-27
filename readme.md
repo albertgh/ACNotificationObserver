@@ -15,7 +15,6 @@ The observer should be a property.
 ```objc
 [self.yourObserver
  listenNotificationName:YOUR_NOTIFICATION_NAME
- object:notificationSenderOrNil
  withActionBlock:^(id anObject, NSDictionary *aUserInfo) {
 
     // do your action here

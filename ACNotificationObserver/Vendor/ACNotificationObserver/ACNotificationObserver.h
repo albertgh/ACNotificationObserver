@@ -10,7 +10,6 @@
 @interface ACNotificationObserver : NSObject
 
 - (void)listenNotificationName:(NSString *)notificationName
-                        object:(id)notificationSenderOrNil
                withActionBlock:(void (^)(id anObject, NSDictionary *aUserInfo))actionBlock;
 
 @end

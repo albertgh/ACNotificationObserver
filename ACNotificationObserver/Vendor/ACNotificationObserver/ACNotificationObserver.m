@@ -25,14 +25,13 @@ typedef void (^ACNOActionBlock)(id anObject, NSDictionary *aUserInfo);
 #pragma mark - Public
 
 - (void)listenNotificationName:(NSString *)notificationName
-                        object:(id)notificationSenderOrNil
                withActionBlock:(void (^)(id anObject, NSDictionary *aUserInfo))actionBlock {
     self.notificationName = notificationName;
     self.actionBlock = actionBlock;
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(triggerActionBlock:)
                                                  name:notificationName
-                                               object:notificationSenderOrNil];
+                                               object:nil];
 }
 
 #pragma mark - Private

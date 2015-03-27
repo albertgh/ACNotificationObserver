@@ -36,7 +36,6 @@
     self.deviceOrientationDidChangeObserver = [[ACNotificationObserver alloc] init];
     [self.deviceOrientationDidChangeObserver
      listenNotificationName:UIApplicationWillChangeStatusBarOrientationNotification
-     object:nil
      withActionBlock:^(id anObject, NSDictionary *aUserInfo) {
          
          NSLog(@"uuu%@", aUserInfo);
