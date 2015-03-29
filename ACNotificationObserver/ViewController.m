@@ -15,7 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *orientationLabel;
 
-@property (nonatomic, strong) ACNotificationObserver *deviceOrientationChangeObserver;
+@property (nonatomic, strong) ACNotificationObserver *orientationChangeObserver;
 
 @end
 
@@ -33,8 +33,8 @@
     }
     
     
-    self.deviceOrientationChangeObserver = [[ACNotificationObserver alloc] init];
-    [self.deviceOrientationChangeObserver
+    self.orientationChangeObserver = [[ACNotificationObserver alloc] init];
+    [self.orientationChangeObserver
      listenNotificationName:UIApplicationWillChangeStatusBarOrientationNotification
      withActionBlock:^(id anObject, NSDictionary *aUserInfo) {
          
