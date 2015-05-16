@@ -9,23 +9,12 @@
 /* Begin PBXBuildFile section */
 		2A16A3A01AC5A8190007587D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A16A39F1AC5A8190007587D /* main.m */; };
 		2A16A3A31AC5A8190007587D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A16A3A21AC5A8190007587D /* AppDelegate.m */; };
-		2A16A3A61AC5A8190007587D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A16A3A51AC5A8190007587D /* ViewController.m */; };
-		2A16A3A91AC5A8190007587D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A16A3A71AC5A8190007587D /* Main.storyboard */; };
 		2A16A3AB1AC5A8190007587D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A16A3AA1AC5A8190007587D /* Images.xcassets */; };
 		2A16A3AE1AC5A8190007587D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A16A3AC1AC5A8190007587D /* LaunchScreen.xib */; };
-		2A16A3BA1AC5A8190007587D /* ACNotificationObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A16A3B91AC5A8190007587D /* ACNotificationObserverTests.m */; };
 		2A16A3C71AC5A8670007587D /* ACNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A16A3C61AC5A8670007587D /* ACNotificationObserver.m */; };
+		2A4ACD081B078587006501B5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4ACD071B078587006501B5 /* RootViewController.m */; };
+		2A4ACD0B1B0785AC006501B5 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4ACD0A1B0785AC006501B5 /* SampleViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2A16A3B41AC5A8190007587D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A16A3921AC5A8190007587D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A16A3991AC5A8190007587D;
-			remoteInfo = ACNotificationObserver;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2A16A39A1AC5A8190007587D /* ACNotificationObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNotificationObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,27 +22,20 @@
 		2A16A39F1AC5A8190007587D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A16A3A11AC5A8190007587D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A16A3A21AC5A8190007587D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A16A3A41AC5A8190007587D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A16A3A51AC5A8190007587D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2A16A3A81AC5A8190007587D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A16A3AA1AC5A8190007587D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2A16A3AD1AC5A8190007587D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2A16A3B31AC5A8190007587D /* ACNotificationObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACNotificationObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A16A3B81AC5A8190007587D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A16A3B91AC5A8190007587D /* ACNotificationObserverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACNotificationObserverTests.m; sourceTree = "<group>"; };
 		2A16A3C51AC5A8670007587D /* ACNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACNotificationObserver.h; sourceTree = "<group>"; };
 		2A16A3C61AC5A8670007587D /* ACNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACNotificationObserver.m; sourceTree = "<group>"; };
+		2A4ACD061B078587006501B5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2A4ACD071B078587006501B5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2A4ACD091B0785AC006501B5 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		2A4ACD0A1B0785AC006501B5 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2A16A3971AC5A8190007587D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A16A3B01AC5A8190007587D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				2A16A39A1AC5A8190007587D /* ACNotificationObserver.app */,
-				2A16A3B31AC5A8190007587D /* ACNotificationObserverTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +68,10 @@
 				2A16A3C31AC5A8670007587D /* Vendor */,
 				2A16A3A11AC5A8190007587D /* AppDelegate.h */,
 				2A16A3A21AC5A8190007587D /* AppDelegate.m */,
-				2A16A3A41AC5A8190007587D /* ViewController.h */,
-				2A16A3A51AC5A8190007587D /* ViewController.m */,
-				2A16A3A71AC5A8190007587D /* Main.storyboard */,
+				2A4ACD061B078587006501B5 /* RootViewController.h */,
+				2A4ACD071B078587006501B5 /* RootViewController.m */,
+				2A4ACD091B0785AC006501B5 /* SampleViewController.h */,
+				2A4ACD0A1B0785AC006501B5 /* SampleViewController.m */,
 				2A16A3AA1AC5A8190007587D /* Images.xcassets */,
 				2A16A3AC1AC5A8190007587D /* LaunchScreen.xib */,
 				2A16A39D1AC5A8190007587D /* Supporting Files */,
@@ -160,24 +142,6 @@
 			productReference = 2A16A39A1AC5A8190007587D /* ACNotificationObserver.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2A16A3B21AC5A8190007587D /* ACNotificationObserverTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A16A3C01AC5A8190007587D /* Build configuration list for PBXNativeTarget "ACNotificationObserverTests" */;
-			buildPhases = (
-				2A16A3AF1AC5A8190007587D /* Sources */,
-				2A16A3B01AC5A8190007587D /* Frameworks */,
-				2A16A3B11AC5A8190007587D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A16A3B51AC5A8190007587D /* PBXTargetDependency */,
-			);
-			name = ACNotificationObserverTests;
-			productName = ACNotificationObserverTests;
-			productReference = 2A16A3B31AC5A8190007587D /* ACNotificationObserverTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,10 +153,6 @@
 				TargetAttributes = {
 					2A16A3991AC5A8190007587D = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					2A16A3B21AC5A8190007587D = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 2A16A3991AC5A8190007587D;
 					};
 				};
 			};
@@ -210,7 +170,6 @@
 			projectRoot = "";
 			targets = (
 				2A16A3991AC5A8190007587D /* ACNotificationObserver */,
-				2A16A3B21AC5A8190007587D /* ACNotificationObserverTests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,16 +179,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A16A3A91AC5A8190007587D /* Main.storyboard in Resources */,
 				2A16A3AE1AC5A8190007587D /* LaunchScreen.xib in Resources */,
 				2A16A3AB1AC5A8190007587D /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A16A3B11AC5A8190007587D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,40 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A16A3A61AC5A8190007587D /* ViewController.m in Sources */,
 				2A16A3A31AC5A8190007587D /* AppDelegate.m in Sources */,
+				2A4ACD0B1B0785AC006501B5 /* SampleViewController.m in Sources */,
 				2A16A3C71AC5A8670007587D /* ACNotificationObserver.m in Sources */,
 				2A16A3A01AC5A8190007587D /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A16A3AF1AC5A8190007587D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A16A3BA1AC5A8190007587D /* ACNotificationObserverTests.m in Sources */,
+				2A4ACD081B078587006501B5 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2A16A3B51AC5A8190007587D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2A16A3991AC5A8190007587D /* ACNotificationObserver */;
-			targetProxy = 2A16A3B41AC5A8190007587D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		2A16A3A71AC5A8190007587D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A16A3A81AC5A8190007587D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2A16A3AC1AC5A8190007587D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -385,40 +313,6 @@
 			};
 			name = Release;
 		};
-		2A16A3C11AC5A8190007587D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ACNotificationObserverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACNotificationObserver.app/ACNotificationObserver";
-			};
-			name = Debug;
-		};
-		2A16A3C21AC5A8190007587D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ACNotificationObserverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACNotificationObserver.app/ACNotificationObserver";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,14 +332,7 @@
 				2A16A3BF1AC5A8190007587D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		2A16A3C01AC5A8190007587D /* Build configuration list for PBXNativeTarget "ACNotificationObserverTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A16A3C11AC5A8190007587D /* Debug */,
-				2A16A3C21AC5A8190007587D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
