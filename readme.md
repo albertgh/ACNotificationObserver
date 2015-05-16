@@ -10,15 +10,18 @@ A simply extension of NSNotificationCenter Observer.
 
 ## Usage
 
-The observer should be a property.
+The observer should be a property. But don't forget to avoid retain cycle.
 
 ```objc
+__weak __typeof(self)weakSelf = self;
 [self.yourObserver
  listenNotificationName:YOUR_NOTIFICATION_NAME
  withActionBlock:^(id anObject, NSDictionary *aUserInfo) {
 
-    // do your action here
-         
+    __strong __typeof(weakSelf)strongSelf = weakSelf;
+
+    [strongSelf yourActionWith:anObjectOrAUserInfo];
+
  }];
 ```
 
