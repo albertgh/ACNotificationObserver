@@ -53,9 +53,15 @@
     
     // initial text value
     UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
-    self.orientationLabel.text = @"portrait";
-    if (UIInterfaceOrientationIsLandscape(orientation)) {
+    self.orientationLabel.text = @"";
+    if (UIInterfaceOrientationIsPortrait(orientation)) {
+        self.orientationLabel.text = @"portrait";
+    }
+    else if (UIInterfaceOrientationIsLandscape(orientation)) {
         self.orientationLabel.text = @"landscape";
+    }
+    else {
+        self.orientationLabel.text = @"unknow orientation";
     }
 }
 
@@ -76,11 +82,14 @@
     UIInterfaceOrientation newOrientation =
     [(NSNumber *)(aUserInfo[UIApplicationStatusBarOrientationUserInfoKey]) integerValue];
     
-    if (UIInterfaceOrientationIsLandscape(newOrientation)) {
+    if (UIInterfaceOrientationIsPortrait(newOrientation)) {
+        self.orientationLabel.text = @"portrait";
+    }
+    else if(UIInterfaceOrientationIsLandscape(newOrientation)) {
         self.orientationLabel.text = @"landscape";
     }
     else {
-        self.orientationLabel.text = @"portrait";
+        self.orientationLabel.text = @"unknow orientation";
     }
 }
 
